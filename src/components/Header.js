@@ -1,6 +1,14 @@
 import React from 'react'
 import darkLogo from '../images/logo-dark.png'
 
+const topBarCloseBtn = document.getElementById("topbar__close");
+if (topBarCloseBtn) {
+  const topbar = document.querySelector(".topbar");
+  topBarCloseBtn.addEventListener("click", () => {
+    topbar.classList.add("hide")
+  })
+}
+
 function Header() {
   return (
     <div>
@@ -8,7 +16,7 @@ function Header() {
         {/* topbar */}
         <div className="topbar">
           <p>Free shipping, 30-day or refund</p>
-          <i className="bx bx-x"></i>
+          <i className="bx bx-x" id="topbar__close"></i>
         </div>
 
 
