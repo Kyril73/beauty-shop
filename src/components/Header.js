@@ -1,6 +1,7 @@
 import React from 'react'
 import darkLogo from '../images/logo-dark.png'
 
+// topbar close
 const topBarCloseBtn = document.getElementById("topbar__close");
 if (topBarCloseBtn) {
   const topbar = document.querySelector(".topbar");
@@ -9,10 +10,34 @@ if (topBarCloseBtn) {
   })
 }
 
+// toggle menu
+const navbar = document.querySelector(".navbar__content")
+const toggleMenu = document.getElementById("toggle-menu")
+const clickCatcher = document.getElementById("body-click-catcher")
+const links = document.querySelectorAll(".nav__link")
+
+if(navbar && toggleMenu && clickCatcher){
+  toggleMenu.addEventListener("click", ()=> {
+    navbar.classList.add("show")
+    clickCatcher.style.display = "block"
+    document.body.style.overflow ="hidden"
+  })
+
+  function closeMenu (){
+    navbar.classList.remove("show")
+    clickCatcher.style.display = "none"
+    document.body.style.overflow = "auto"
+  }
+  clickCatcher.addEventListener("click", closeMenu)
+  links.forEach((link) => link.addEventListener("click", closeMenu))
+}
+
 function Header() {
   return (
     <div>
       <header>
+        {/* Body click catcher */}
+        <div id="body-click-catcher"></div>
         {/* topbar */}
         <div className="topbar">
           <p>Free shipping, 30-day or refund</p>
