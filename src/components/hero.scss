@@ -4,4 +4,46 @@ section#hero {
 
 .hero {
   display: grid;
+  overflow: hidden;
+
+  &__img {
+    animation-name: fade-in-bottom;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in;
+  }
+
+  @media screen and (min-width: 768px) {
+    grid-template-columns: 2fr 3fr;
+
+    &__img {
+      max-height: 500px;
+      justify-self: end;
+    }
+  }
+
+  &__content {
+    padding: var(--sp-md);
+    animation-name: fade-in-right;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in;
+
+    h2 {
+      font-size: var(--fs-md);
+      letter-spacing: 0.1em;
+      color: var(--clr-text-secondary);
+      margin-bottom: var(--sp-xs);
+    }
+    h1 {
+      font-size: var(--fs-xl);
+      margin-bottom: var(--sp-md);
+    }
+
+    p {
+      margin-bottom: var(--sp-2xl);
+    }
+
+    @media screen and (min-width: 768px) {
+      align-self: center;
+    }
+  }
 }
