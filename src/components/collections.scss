@@ -28,6 +28,16 @@
         h2 {
           margin-bottom: var(--sp-sm);
         }
+
+        @media screen and (min-width: 768px) {
+          position: absolute;
+          top: 25%;
+          left: var(--sp-md);
+        }
+      }
+      &:hover img {
+        transform: scale(1.1, 1.1);
+        transform-origin: right;
       }
     }
   }
