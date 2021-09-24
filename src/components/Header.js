@@ -32,12 +32,38 @@ if(navbar && toggleMenu && clickCatcher){
   links.forEach((link) => link.addEventListener("click", closeMenu))
 }
 
+// Apply sticky header
+window.addEventListener("scroll", () => {
+  const navbar = document.getElementById("navbar")
+  if(window.scrollY >= 300){
+    navbar.classList.add("sticky")
+  }else {
+    navbar.classList.remove("sticky")
+  }
+})
+
+// bACK TO TOP
+window.addEventListener("scroll", ()=> {
+  const backToTop = document.getElementById("back-to-top")
+  if(window.scrollY >= 300){
+    backToTop.classList.add("show-scroll")
+  }else {
+    backToTop.classList.remove("show-scroll")
+  }
+})
+
 function Header() {
   return (
     <div>
       <header>
         {/* Body click catcher */}
         <div id="body-click-catcher"></div>
+
+        {/* back to top */}
+        <a href="#" id="back-to-top">
+          <i className="bx bx-chevron-up"></i>
+        </a>
+
         {/* topbar */}
         <div className="topbar">
           <p>Free shipping, 30-day or refund</p>

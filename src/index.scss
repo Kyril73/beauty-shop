@@ -104,6 +104,29 @@ button {
   display: none;
 }
 
+#back-to-top {
+  position: fixed;
+  right: var(--sp-md);
+  bottom: var(--sp-md);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--sp-sm);
+  background-color: var(--clr-text-secondary);
+  border-radius: var(--sp-sm);
+  z-index: 1000;
+
+  visibility: hidden;
+  i {
+    font-size: var(--fs-lg);
+    color: white;
+  }
+
+  &.show-scroll {
+    visibility: visible;
+  }
+}
+
 a.btn {
   letter-spacing: 0.2em;
   cursor: pointer;

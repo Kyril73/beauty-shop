@@ -22,6 +22,15 @@
   position: relative;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 
+  &.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 100;
+  }
+
   &__mobile {
     background-color: white;
     display: flex;
