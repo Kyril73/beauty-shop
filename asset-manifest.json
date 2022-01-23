@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/beauty-shop/static/css/main.310a5b32.chunk.css",
+    "main.js": "/beauty-shop/static/js/main.a0cf5635.chunk.js",
+    "main.js.map": "/beauty-shop/static/js/main.a0cf5635.chunk.js.map",
+    "runtime-main.js": "/beauty-shop/static/js/runtime-main.f5940af8.js",
+    "runtime-main.js.map": "/beauty-shop/static/js/runtime-main.f5940af8.js.map",
+    "static/js/2.79a8050a.chunk.js": "/beauty-shop/static/js/2.79a8050a.chunk.js",
+    "static/js/2.79a8050a.chunk.js.map": "/beauty-shop/static/js/2.79a8050a.chunk.js.map",
+    "static/js/3.9621a711.chunk.js": "/beauty-shop/static/js/3.9621a711.chunk.js",
+    "static/js/3.9621a711.chunk.js.map": "/beauty-shop/static/js/3.9621a711.chunk.js.map",
+    "index.html": "/beauty-shop/index.html",
+    "static/css/main.310a5b32.chunk.css.map": "/beauty-shop/static/css/main.310a5b32.chunk.css.map",
+    "static/js/2.79a8050a.chunk.js.LICENSE.txt": "/beauty-shop/static/js/2.79a8050a.chunk.js.LICENSE.txt",
+    "static/media/banner-1.33425796.jpg": "/beauty-shop/static/media/banner-1.33425796.jpg",
+    "static/media/banner-2.7741b70d.jpg": "/beauty-shop/static/media/banner-2.7741b70d.jpg",
+    "static/media/blog-1.4d7d657c.jpg": "/beauty-shop/static/media/blog-1.4d7d657c.jpg",
+    "static/media/blog-2.82752846.jpg": "/beauty-shop/static/media/blog-2.82752846.jpg",
+    "static/media/blog-3.fd45f17a.jpg": "/beauty-shop/static/media/blog-3.fd45f17a.jpg",
+    "static/media/header-1.05a4d2da.png": "/beauty-shop/static/media/header-1.05a4d2da.png",
+    "static/media/payment.500df3f1.bmp": "/beauty-shop/static/media/payment.500df3f1.bmp",
+    "static/media/product-1.1e67ed30.jpg": "/beauty-shop/static/media/product-1.1e67ed30.jpg",
+    "static/media/product-2.4b8e51d8.jpg": "/beauty-shop/static/media/product-2.4b8e51d8.jpg",
+    "static/media/product-3.c91764c9.jpg": "/beauty-shop/static/media/product-3.c91764c9.jpg",
+    "static/media/product-4.4241cfca.jpg": "/beauty-shop/static/media/product-4.4241cfca.jpg",
+    "static/media/product-5.c719cee2.jpg": "/beauty-shop/static/media/product-5.c719cee2.jpg",
+    "static/media/product-6.4c86bc6d.jpg": "/beauty-shop/static/media/product-6.4c86bc6d.jpg",
+    "static/media/product-7.0a25ac2f.jpg": "/beauty-shop/static/media/product-7.0a25ac2f.jpg",
+    "static/media/product-8.62bdd50f.jpg": "/beauty-shop/static/media/product-8.62bdd50f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f5940af8.js",
+    "static/js/2.79a8050a.chunk.js",
+    "static/css/main.310a5b32.chunk.css",
+    "static/js/main.a0cf5635.chunk.js"
+  ]
+}
